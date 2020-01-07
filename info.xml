@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="contributiontransactlegacy" type="module">
+  <file>contributiontransactlegacy</file>
+  <name>Contribution.Transact Legacy API workaround</name>
+  <description>Workaround for the broken Contribution.Transact API</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Matthew Wire</author>
+    <email>mjw@mjwconsult.co.uk</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/mjwconsult/civicrm-contributiontransactlegacy</url>
+    <url desc="Support">https://www.mjwconsult.co.uk</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2020-01-07</releaseDate>
+  <version>0.1</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>5.20</ver>
+  </compatibility>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Contributiontransactlegacy</namespace>
+  </civix>
+</extension>
