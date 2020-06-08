@@ -1,3 +1,5 @@
+# Moved to https://lab.civicrm.org/extensions/contributiontransactlegacy
+
 # contributiontransactlegacy
 
 Install this if you need to continue using (a fixed) version of the Contribution.transact API because your integration has not yet been updated away from it.
